@@ -1,0 +1,12 @@
+Muhammad Taufan Okka Muhiba
+
+Case :
+Bagaimana urutan branching dan merging jika ada fitur a, fitur c, dan bug b, yang harus di deploy ke production minggu depan, dan sekarang kita cuma punya branch master?
+
+Answer:
+- Buat branch feature/a, feature/c, bug/b, dan release/abc
+- develop and debug fitur dan bug yang ada
+- Ketika semua sudah siap, merge bug/b ke release/abc
+- kemudian, merge feature/a dan feature/b ke release/abc
+- Jika misalkan ada merge conflict pada saat merging, benarkan merge conflict terlebih dahulu di branch release/abc
+- Jika semua proses merge telah selesai, ajukan pull request ke master, untuk di merge ke master
