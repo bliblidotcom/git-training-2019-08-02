@@ -1,0 +1,6 @@
+pertama-tama, siapkan dulu branch feature, bug, dan release.
+buat branchs dengan nama a dan c dari branch release pada branch fitur.
+buat branch dengan nama b dari branch release pada branch bug.
+apabila fitur a atau c sudah selesai dikerjakan, maka merge ke release, dan branch fitur a atau c dihapus.
+apabila branch bug b selesai dikerjakan, merge branch b ke release.
+setelah semuanya selesai, tinggal merge release ke master dan branch release sudah dapat dihapus.
