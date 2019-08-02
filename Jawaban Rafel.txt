@@ -1,11 +1,15 @@
 Kasus 1 :
+- Buat branch release/rilis-minggu-depan
 - Buat branch feature/feature-a dari master
-- Buat branch feature/feature-c dari master
+- Buat branch feature/feature-a dari master
 - Buat branch bug/bug-b dari master
-- Buat file untuk fitur a dan fitur b di branch masing-masing
-- Lakukan git add dan commit
+- Buat file untuk fitur a di branch feature/feature-a
+- Lakukan git add dan commit di branch feature/feature-a
+- Buat fitur b di branch feature/feature-a
+- Lakukan git add dan commit di branch feature/feature-a
 - Perbaiki file yang ada bug
-- Lakukan git add terhadap file tadi dan commit
-- Merging branch feature/feature-a ke master
-- Merging branch feature/feature-b ke master
-- Merging branche bug/bug-b ke master
+- Lakukan git add terhadap file tadi dan commit di branch bug/bug-b
+- Merging branch feature/feature-a ke release/rilis-minggu-depan
+- Merging branch feature/feature-b ke release/rilis-minggu-depan
+- Merging branch bug/bug-b ke release/rilis-minggu-depan
+- Merging ke production dari relerase/rilis-minggu-depan ke master
