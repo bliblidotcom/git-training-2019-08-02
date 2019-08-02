@@ -1,0 +1,9 @@
+		 B	  bug
+		/
+		A---C fitur
+	 /
+    apps	  master
+
+ada sebuah apps awal bernama apps di branch master kemudian buat branch fitur dan buat proyek fiturA di branch fitur kemudian 
+buat juga fiturB dan push di branch fitur. Misalkan terjadi bug pada proyek B, buat proyek solving_fitur_B dipush di branch bugfix kemudian.
+Setelah selesai merge branch fitur ke master.
