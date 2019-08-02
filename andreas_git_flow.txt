@@ -1,0 +1,19 @@
+Git Flow
+
+kira2 gimana urutan branching n merging nya,kalo kita ada fitur a dan fitur c,dan bug b,yang 
+harus di deploy ke production minggu depan,dan sekarang kita cuma punya branch master.
+
+jawab :
+1.buat 3 branch,untuk fitur a,fitur c,dan bug b.
+  -git checkout -b fitur_a
+  -git checkout -b fitur_c
+  -git checkout -b bug_b
+2.setelah terbentuk branch sesuai kebutuhan,lakukan pengerjaan fitur a dan fitur c,dan penyelesaian bug b,
+  setelah itu,lakukan :
+   -git add .
+   -git commit -m "pesan commit"
+   -git push origin <nama_branch>
+3.setelah itu,lakukan merge semua branch ke master.   
+4.setelah pengerjaan selesai,lakukan pull request ke master.
+5.Apabila ada terjadi conflict,tangani dulu conflict dulu,apabila conflict sudah teratasi,lakukan push kembali.
+6.untuk mempermudah pengerjaan kita dapat menggunakan git log --graph --decorate --oneline --color --all   
