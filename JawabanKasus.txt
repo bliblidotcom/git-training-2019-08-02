@@ -1,0 +1,30 @@
+Langkah - langkah : 
+
+1. Buat branch released.
+2. Di dalam branch released, buat branch fitur UI, fitur Data, dan Bug UI.
+
+   => git checkout -b UI
+
+      -> terdapat file UI untuk sebuah website
+      -> add setiap file ke dalam .git
+      -> commit file yang baru di add
+
+
+   => git checkout -b Data
+
+      -> terdapat file database untuk sebuah website
+      -> add setiap file database ke dalam .git
+      -> commit file yang baru di add.
+
+
+   => git checkout -b Bug_UI
+
+      -> terdapat file bug untuk sebuah website
+      -> add setiap file database ke dalam .git
+      -> commit file yang baru di add
+
+3. Merge branch UI, Data, dan Bug_UI menjadi satu dengan branch Released.
+4. Lalu Git Push di branch Released.
+5. Pull Request.
+
+
