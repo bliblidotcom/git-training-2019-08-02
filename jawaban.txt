@@ -1,0 +1,36 @@
+soal:
+urutan branching dan merging kalo ada fitur a, bug b , dan fitur c,  
+yang harus di deploy ke production minggu depan
+dan sekarang kita cuma punya branch master.
+
+jawaban:
+pertama, kita harus menyediakan 3 branch terlebih dahulu untuk menampung
+fitur a ,dan fitur c, yang akan di kerjakan secara paralel, 
+setelah fitur a selesai, kita melakukan merge 
+dan di push ke master, begitu juga dengan fitur c, kemudian seluruh bug dari semua fitur,
+di letakkan dalam 1 branch baru, dan di merge, dan push ke master.
+
+- git checkout -b fitur_1
+- git checkout -b fitur_2
+- git checkout -b bug_detail
+
+- git checkout fitur_1
+- git add . 
+- git commit -am "fitur_1_commit"
+- git push origin fitur_1
+- git merge fitur_1
+- git push origin master
+
+- git checkout fitur_2
+- git add .
+- git commit -am "fitur_2_commit"
+- git push origin fitur_2
+- git merge fitur_2
+- git push origin master
+
+- git checkout bug_detail
+- git add.
+- git commit -am "bugdetail"
+- git push origin bug_detail
+- git merge bug_detail
+- git push origin master
