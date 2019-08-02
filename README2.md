@@ -1,3 +1,3 @@
 # git-training-2019-08-02
 
-Author : Riandi Ramadhan
+Author : Mgs. M. Riandi Ramadhan
