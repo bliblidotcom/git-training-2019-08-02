@@ -1,0 +1,6 @@
+pertama dibuat branch Feature-A dan Feature-C
+lalu buat branch Bug-B
+setelah itu dibuat branch Release
+setelah Feature-A selesai dikerjakan, maka Feature-A di-merge ke Release
+setelah melakukan fix di Bug-B, Bug-B di-merge ke Release
+setelah Feature-C selesai dikerjakan, maka Feature-C di-merge ke Release
