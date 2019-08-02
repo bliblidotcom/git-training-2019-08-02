@@ -1,0 +1,15 @@
+git Flow :
+	1. dari master buat 3 branch yaitu :
+	   a. feature/fitur_A 
+	   b. feature/fitur_C 
+	   c. bug/bug_B       
+	 
+	2. buat source code yang diperlukan pada fitur dan bug, lalu push pada setiap branch ke branch masing masing
+	3. kemudian : 
+	   3.1. master merge dengan branch bug/bug_B, lalu pasti akan ada merge conflict pada file yang terkait bug B. selesaikan merge conflict dengan cara membuang existing code/file 
+	        yang conflict dimaster dan diganti dengan code/file dari branch bug/bug_B
+	   3.2. master merge dengan branch feature/fitur_A lalu akan ada merge conflict pada file yang terkait bug B. selesaikan merge conflict 
+		dengan cara mempertahankan code/file yang ada dimaster 
+	   3.3. master merge dengan branch feature/fitur_C lalu akan ada merge conflict pada file yang terkait bug B ataupun Fitur A yang juga dimiliki pada fitur C. 
+		selesaikan merge conflict dengan cara mempertahankan code/file yang ada dimaster
+	
