@@ -1,10 +1,12 @@
-1. Buat branch baru untuk setiap fitur yang akan dibuat dan bug yang di-resolve, dapat juga hanya 1 branch sesuai dengan kebutuhan. Lakukan perintah berikut untuk membuat branch baru :
-   git checkout -b 'new-branch-name'
+1. Buat branch baru untuk setiap fitur yang akan dibuat dan bug yang di-resolve. Lakukan perintah berikut untuk membuat branch baru :
+   git checkout -b 'feature-a'
+   git checkout -b 'feature-b'
+   git checkout -b 'feature-c'
 2. Setelah berada di branch, lakukan perubahan sesuai dengan permintaan, dapat berupa penambahan fitur atau penyelesaian bug.
 3. Setelah menambahkan fitur, lakukan perintah berikut untuk melakukan perubahan pada remote branch dari local branch :
    git add .    // menambahkan semua file yang berada di file repository lokal
    git commit -m 'commit message'   // melakukan commit dilengkapi dengan pesan perubahan
-   git push origin 'new-branch-name'    // memasukkan perubahan pada remote branch
+   git push origin 'branch-name'    // memasukkan perubahan pada remote branch
 4. Setelah menyelesaikan masing-masing fitur dan bug, pindah ke branch master untuk melakukan merging dengan perintah berikut.
    git checkout master
 5. Pada saat di branch master, lakukan merging terhadap branch lainnya dengan perintah berikut.
