@@ -1,0 +1,8 @@
+
+urutan branching nya:
+1. buat branch release dan bug_b dari branch master
+2. pada branch release buat branch fitur_A dan fitur_C masing-masing fitur (a dan c)
+3. lalu lakukan merge ke release untuk branch fitur_A
+4. lalu lakukan merge ke release untuk branch fitur_C
+5. lakukan merge dari branch release ke branch master
+6. lalu merge bug_b ke branch master (jika bug tersebut sudah di fix)
