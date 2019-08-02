@@ -1,13 +1,12 @@
          
-		    C       bugfixB
+		    C          bugfixB
           /   \
-		 B	   \    fiturB
-		/  \    \
-		A   \    \  fiturA
+         B	   \        fiturB
+        /  \    \
+       A    \    \     fiturA
       /   \   \    \
-    apps-------  rilis
-	
-buat sebuah branch rilis untuk 
+    apps-------------   rilis
+
 
 ada sebuah apps awal bernama apps di branch rilis kemudian buat branch fiturA dan fitur B dan buat proyek fiturA di branch fiturA kemudian 
 buat proyek fiturB di branch fiturB dan di push dimasing-masing branch. Setelah itu merge branch fiturA dan fiturB ke master. 
