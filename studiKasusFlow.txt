@@ -1,5 +1,4 @@
 urutan branching dan merging jika ada fitur a, fitur c , dan bug b
-
 1. master membuat branch development
 2. branch development membuat branch fitur a
 3. branch development membuat branch fitur c
