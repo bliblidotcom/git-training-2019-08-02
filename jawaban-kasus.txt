@@ -1,0 +1,7 @@
+urutan pengerjaan :
+1. membuat dua branch pada master yaitu branch release/minggu-depan dan bug/B
+2. membuat dua branch pada branch release/minggu-depan yaitu branch Feature/A dan Feature/C
+3. merge branch Feature/A dengan branch Release/minggu-depan
+4. merge branch Feature/C dengan branch Release/minggu-depan
+5. merge branch Release/minggu-depan dengan Master
+6. merge branch bug/B dengan Master
