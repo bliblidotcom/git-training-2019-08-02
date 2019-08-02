@@ -1,0 +1,30 @@
+urutan branching and merging
+jika ada :
+- Fitur A dan C
+- Bug B
+yang harus di deploy ke production minggu depan, sementara hanya ada branch master?
+
+fiturA
+Buat branch fiturA (git checkout -b fiturA)
+Tambahkan file ke dalamnya (vim a.txt lalu git add a.txt)
+Commit file tersebut (git commit)
+Push fiturA (git push --set-upstream origin fiturA)
+Aktifkan master (git checkout master)
+Merge fiturA dengan master
+
+fiturC
+Buat branch fiturC (git checkout -b fiturC)
+Tambahkan file ke dalamnya (vim c.txt lalu git add c.txt)
+Commit file tersebut
+Push fiturC (git push --set-upstream origin fiturC)
+Aktifkan master (git checkout master)
+Merge fiturC dengan master
+
+bugB
+Buat branch bugB (git checkout -b bugB)
+Tambahkan file ke dalamnya (vim b.txt lalu git add b.txt)
+Commit file tersebut
+Push bugB (git push --set-upstream origin bugB)
+Aktifkan master (git checkout master)
+Merge bugB dengan master
+
