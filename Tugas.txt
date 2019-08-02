@@ -1,0 +1,13 @@
+Kira" gimana urutan branching n mergingnya, kalo kita ada fitur a dan fitur c dan bug b,
+yang harus di deploy ke production minggu depan, dan sekarang kita cuman punya branch master :
+
+
+Keterngan : -> branching
+	    ==> merge ke
+
+Master -> Release
+Release1 -> fiturA, fiturC dan bugB
+
+fiturA, fiturB dan bugB ==> Release	
+
+Release ==> Master.
