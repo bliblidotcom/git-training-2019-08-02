@@ -1,0 +1,21 @@
+Muhammad Taufan Okka Muhiba
+
+Case :
+Bagaimana urutan branching dan merging jika ada fitur a, fitur c, dan bug b, yang harus di deploy ke production minggu depan, dan sekarang kita cuma punya branch master?
+
+Answer:
+- Create branch feature/a
+- Create branch feature/c
+- Create branch bug/b
+- Working on that branch for features and bugs
+- If bug b have done, Merge bug/b to release/abc
+- If feature/a done, Merge feature/a to release/abc
+- If feature/c done, Merge feature/c to release/abc
+- Checking for merge conflict if that happened
+- Merge release/abc into master
+
+final branch list :
+- master
+- feature/a
+- feature/c
+- bug/b
