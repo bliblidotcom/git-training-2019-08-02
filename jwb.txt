@@ -3,4 +3,4 @@
 3. Merge branch bug/b ke release
 4. Buat branch feature/a dan feature/c yang diambil dari branch release
 5. jika feature/a atau feature/c selesai, commit dan merge ke release
-6. Lakukan Pull Request ke branch master
+6. Lakukan Pull Request dari branch release ke branch master
