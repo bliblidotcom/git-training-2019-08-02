@@ -1,5 +1,9 @@
-Pertama buat 1 branch realese untuk dedline minggu depan.
-Check out ke branch release, lalu buat 2 branch kembali untuk fitur a dan fitur c.
-Kemudian pada branch release buat lagi branch untuk bug b. Setelah pengerjaan selesai
-merging branch untuk fitur a, fitur c, dan fitur b kedalam branch release. Lalu lakukan
-merging lagi dari release ke branch master.
+1.
+1. 	Buat branch release/09-Agustus-2019, kemudian checkout ke branch tersebut.
+2. 	Lalu buat kembali tiga branch pada branch realese dengan nama, fitur/A, fitur/C, dan
+	bug/B.
+3.	Kemudian lakukan proses pembuatan fitur dan penyelesaian bug.
+4.	Setelah selesai checkout ke branch realese dan lakukan merge dengan branch
+	fitur/A, fitur/C, dan bug/B.
+5.	Setelah semua dipastikan selesai, checkout ke branch master dan lakukan merge
+	dengan branch release/09-Agustus-2019
