@@ -1,0 +1,11 @@
+Kasus 1 :
+- Buat branch feature/feature-a dari master
+- Buat branch feature/feature-c dari master
+- Buat branch bug/bug-b dari master
+- Buat file untuk fitur a dan fitur b di branch masing-masing
+- Lakukan git add dan commit
+- Perbaiki file yang ada bug
+- Lakukan git add terhadap file tadi dan commit
+- Merging branch feature/feature-a ke master
+- Merging branch feature/feature-b ke master
+- Merging branche bug/bug-b ke master
