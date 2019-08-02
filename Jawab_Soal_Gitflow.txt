@@ -4,7 +4,7 @@
 		 B	   \    fiturB
 		/  \    \
 		A   \    \  fiturA
-	 /   \   \    \
+      /   \   \    \
     apps-------  rilis
 	
 buat sebuah branch rilis untuk 
