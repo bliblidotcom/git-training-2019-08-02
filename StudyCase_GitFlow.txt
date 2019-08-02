@@ -1,0 +1,11 @@
+kira2 gmn urutan branching n merging nya, klo kita ada fitur a dan fitur c, dan bug b, 
+yang harus di deploy ke production minggu depan, dan sekarang kita cuma punya branch master.
+
+1. pertama buat terlebih dahulu branch development
+2. kemudian buat branch fitur a dari branch development
+3. lalu buat jga branch fitur c dari branch development
+4. buat branch bug b dari branch development jga
+5. lalu merge branch fitur a dengan branch development
+6. merge jga branch fitur b dengan branch development
+7. merge branch bug b dengan branch development
+8. terakhir merge branch development ke master
