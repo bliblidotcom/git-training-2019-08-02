@@ -1,19 +1,20 @@
-1. Buat branch baru untuk setiap fitur yang akan dibuat dan bug yang di-resolve. Lakukan perintah berikut untuk membuat branch baru :
-   git checkout -b 'feature-a'
-   git checkout -b 'feature-b'
-   git checkout -b 'feature-c'
+1. Buat branch baru untuk setiap fitur yang akan dibuat dan bug yang di-resolve serta branch untuk production. Lakukan perintah berikut untuk membuat branch baru :
+   git checkout -b feature-a
+   git checkout -b feature-b
+   git checkout -b feature-c
+   git checkout -b production
 2. Setelah berada di branch, lakukan perubahan sesuai dengan permintaan, dapat berupa penambahan fitur atau penyelesaian bug.
 3. Setelah menambahkan fitur, lakukan perintah berikut untuk melakukan perubahan pada remote branch dari local branch :
    git add .    // menambahkan semua file yang berada di file repository lokal
    git commit -m 'commit message'   // melakukan commit dilengkapi dengan pesan perubahan
    git push origin 'branch-name'    // memasukkan perubahan pada remote branch
-4. Setelah menyelesaikan masing-masing fitur dan bug, pindah ke branch master untuk melakukan merging dengan perintah berikut.
-   git checkout master
-5. Pada saat di branch master, lakukan merging terhadap branch lainnya dengan perintah berikut.
-   git merge 'new-branch-name'
-6. Jika terdapat konflik, tangani dulu konflik yang terjadi sebelum melakukan perubahan pada remote master.
-7. Untuk melakukan perubahan pada remote master, lakukan perintah berikut.
+4. Setelah menyelesaikan masing-masing fitur dan bug, pindah ke branch production untuk melakukan merging dengan perintah berikut.
+   git checkout production
+5. Pada saat di branch production, lakukan merging terhadap branch lainnya dengan perintah berikut.
+   git merge feature-a feature-b feature-c
+6. Jika terdapat konflik, tangani dulu konflik yang terjadi sebelum melakukan perubahan pada remote production.
+7. Untuk melakukan perubahan pada remote production, lakukan perintah berikut.
    git add .
    git commit -m 'commit message'
-   git push origin master
+   git push origin production
 8. Selama proses pengerjaan, dapat digunakan git log dan git status untuk membantu pengerjaan.
