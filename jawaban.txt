@@ -1,0 +1,24 @@
+1. buat branch-branch berikut
+    a. feature/A 
+    b. feature/C
+    c. bug/B
+    d. release/MingguDepan
+
+2. masuk ke branch bug/B, lakukan bug fix di branch bug/B 
+
+3. masuk ke branch release/MingguDepan, lakukan merge antara branch release/MingguDepan dengan bug/B, sehingga di release/MingguDepan bug B sudah hilang
+
+4. masuk ke branch feature/C, lakukan merge antara branch release/MingguDepan dengan feature/C
+
+5. buat fitur C di branch feature/C
+
+6. masuk ke branch release/MingguDepan, merge branch feature/C dengan release/MingguDepan, sehingga di release/MingguDepan sudah ada fitur C
+
+7. masuk ke branch feature/A, lakukan merge antara branch feature/A dengan release/MingguDepan
+
+8. buat fitur A di feature/A 
+
+9. masuk ke branch release/MingguDepan, merge branch release/MingguDepan dengan feature/A, sehingga di release/MingguDepan sudah ada fitur a
+
+10. merge branch release/MingguDepan ke master
+
